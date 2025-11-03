@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografia | Denny Conrado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="main-header">
+        <div class="container">
+            <!-- LOGO / NOME -->
+            <div class="logo">
+                <h1>Denny Conrado Fotografia</h1>
+            </div>
+
+            <!-- MENU -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato" class="btn-contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Capturando momentos que contam histórias</h2>
+            <p>Fotografia autêntica, sensível e cheia de emoção.</p>
+            <a href="#contato" class="btn-hero">Agende seu ensaio</a>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE A FOTÓGRAFA ===== -->
+    <section id="sobre" class="sobre">
+        <div class="container-sobre">
+
+            <!-- IMAGEM À ESQUERDA -->
+            <div class="sobre-img">
+                <img src="./imagens/imagem fotografa.jpeg" alt="Fotógrafa em ação">
+                <div class="overlay">
+                    <span class="icon-camera">📸</span>
+                </div>
+            </div>
+
+            <!-- TEXTO À DIREITA -->
+            <div class="sobre-texto">
+                <h2>Sobre a Fotógrafa</h2>
+                <p class="bio">
+                    Olá! Sou <strong>Deniziele Conrado </strong>, apaixonada por eternizar momentos únicos através das
+                    lentes.
+                    Acredito que a fotografia vai muito além da imagem — é sobre emoção, verdade e conexão.
+                </p>
+                <p class="missao">
+                    <em>“Acredito que cada olhar guarda uma história, e meu propósito é contá-las com sensibilidade e
+                        autenticidade.”</em>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== PORTFÓLIO ===== -->
+    <section id="portfolio" class="portfolio">
+        <div class="container-portfolio">
+            <h2>Portfólio</h2>
+            <p class="subtitulo">Alguns dos momentos que eternizei com minhas lentes</p>
+
+            <!-- Grid de imagens -->
+            <div class="galeria">
+                <div class="foto"><img src="./imagens/mds.jpeg" alt="Casamento"></div>
+                <div class="foto"><img
+                        src="./imagens/loira.jpeg"
+                        alt="Retrato feminino"></div>
+                <div class="foto"><img
+                        src="imagens/criança.jpeg"
+                        alt="Retrato artístico"></div>
+                <div class="foto"><img
+                        src="./imagens/gabil.jpeg"
+                        alt="Evento social"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVIÇOS / ESPECIALIDADES ===== -->
+    <section id="servicos" class="servicos">
+        <div class="container-servicos">
+            <h2>Serviços & Especialidades</h2>
+            <p class="subtitulo">Cada ensaio é planejado com cuidado, para capturar o que há de mais verdadeiro em cada
+                momento.</p>
+
+            <div class="grid-servicos">
+                <!-- Card 1 -->
+                <div class="card-servico">
+                    <div class="img-box">
+                        <img src="./imagens/cas.jpeg"
+                            alt="Ensaio de Casamento">
+                    </div>
+                    <div class="conteudo">
+                        <h3>Casamentos</h3>
+                        <p>Registros emocionantes do grande dia, com foco em momentos genuínos e cheios de amor.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card-servico">
+                    <div class="img-box">
+                        <img src="./imagens/tatil.jpeg"
+                            alt="Retratos">
+                    </div>
+                    <div class="conteudo">
+                        <h3>Retratos</h3>
+                        <p>Retratos artísticos e naturais, revelando a essência de cada pessoa com sensibilidade e
+                            autenticidade.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card-servico">
+                    <div class="img-box">
+                        <img src="./imagens/gravida.jpeg"
+                            alt="Gestantes">
+                    </div>
+                    <div class="conteudo">
+                        <h3>Gestantes</h3>
+                        <p>Momentos únicos e cheios de expectativa, celebrando a beleza da maternidade e o amor em
+                            família.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card-servico">
+                    <div class="img-box">
+                        <img src="./imagens/batismo.jpeg"
+                            alt="Eventos">
+                    </div>
+                    <div class="conteudo">
+                        <h3>Eventos</h3>
+                        <p>Fotografia de eventos sociais, corporativos ou culturais — captando cada detalhe com
+                            profissionalismo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTATO / AGENDAMENTO ===== -->
+    <section id="contato" class="contato">
+        <div class="container-contato">
+            <h2>Agende Seu Ensaio</h2>
+            <p class="subtitulo">
+                Preencha o formulário ou escolha um dos canais abaixo para falar comigo 💜
+            </p>
+
+            <div class="conteudo-contato">
+
+                <!-- FORMULÁRIO -->
+                <form class="form-contato" action="#" method="post">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="contato">Contato (WhatsApp)</label>
+                        <input type="tel" id="contato" name="contato" placeholder="(XX) XXXXX-XXXX" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..."
+                            required></textarea>
+                    </div>
+
+                    <div class="campo">
+                        <label for="tipo">Tipo de Ensaio</label>
+                        <select id="tipo" name="tipo" required>
+                            <option value="">Selecione o tipo de ensaio</option>
+                            <option value="casamento">Casamento</option>
+                            <option value="retratos">Retratos</option>
+                            <option value="gestante">Gestante</option>
+                            <option value="evento">Evento</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">Enviar Solicitação</button>
+                </form>
+
+                <!-- CARDS DE OUTROS CANAIS -->
+                <div class="cards-contato">
+                    <div class="card-contato">
+                        <div class="icon">📱</div>
+                        <h3>WhatsApp</h3>
+                        <p>Converse diretamente comigo e tire suas dúvidas.</p>
+                        <a href="https://wa.me/seunumerowhatsapp" target="_blank" class="btn-card">Abrir WhatsApp</a>
+                    </div>
+
+                    <div class="card-contato">
+                        <div class="icon">📸</div>
+                        <h3>Instagram</h3>
+                        <p>Acompanhe meu trabalho, inspirações e ensaios recentes.</p>
+                        <a href="https://instagram.com/seuinstagram" target="_blank" class="btn-card">Ver Instagram</a>
+                    </div>
+
+                    <div class="card-contato">
+                        <div class="icon">✉️</div>
+                        <h3>E-mail</h3>
+                        <p>Envie uma mensagem direta com suas solicitações ou dúvidas.</p>
+                        <a href="dennyconradofotografia@email.com" class="btn-card">Enviar E-mail</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container-footer">
+
+            <!-- LOGO + MISSÃO -->
+            <div class="footer-top">
+                <div class="footer-logo-missao">
+                    <div class="footer-logo">
+                        <img src="./imagens/logo.jpeg" alt="Logo Fotógrafa" />
+                    </div>
+                    <div class="footer-missao">
+                        <p>
+                            Capturamos momentos únicos com sensibilidade, criatividade e autenticidade.
+                            Nossa missão é eternizar histórias através da fotografia, transformando memórias em emoções.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CONTATOS À DIREITA -->
+                <div class="footer-contatos">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><a href="https://wa.me/seunumerowhatsapp" target="_blank">📱 WhatsApp</a></li>
+                        <li><a href="https://instagram.com/dennyconradofotografia" target="_blank">📸 Instagram</a></li>
+                        <li><a href="mailto:seuemail@email.com">✉️ E-mail</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- DIREITOS AUTORAIS -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Denny Conrado Fotografia. Todos os direitos reservados.</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
